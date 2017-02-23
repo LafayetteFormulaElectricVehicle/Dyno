@@ -1,0 +1,14 @@
+[Unit]
+Description=auto setup for vcan
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/modprobe can
+ExecStart=/sbin/modprobe vcan
+ExecStart=/sbin/ip link add dev vcan0 type vcan
+ExecStart=/sbin/ip link set up vcan0
+ExecStart=/sbin/ip link show vcan0
+User=root
+
+[Install]
+WantedBy=multi-user.target

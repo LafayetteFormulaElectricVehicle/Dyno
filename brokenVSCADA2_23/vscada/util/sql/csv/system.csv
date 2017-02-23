@@ -1,0 +1,4 @@
+system_id,name,description
+0,'dyno','a motor controller'
+1,'glb','ground level voltage'
+2,'safety','a safety loop'

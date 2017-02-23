@@ -1,0 +1,8 @@
+sensor_id,rrd_filename,overwrite_period,pow_square,pow_linear,pow_constant,pow_inverse,pow_inverse_square
+24,'motor/tachometer.rrd',24,0,1,0,0,0
+25,'motor/torque.rrd',24,0,1,0,0,0
+26,'glv/voltage1.rrd',24,0,1,0,0,0
+27,'glv/voltage2.rrd',24,0,1,0,0,0
+28,'glv/current1.rrd',24,0,1,0,0,0
+29,'glv/current2.rrd',24,0,1,0,0,0
+33,'manual_input/knot.rrd',24,0,1,0,0,0
