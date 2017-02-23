@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="oxygen">
+    <file>img/edit.png</file>
+    <file>img/remove.png</file>
+    <file>img/add.png</file>
+    <file>img/graph.png</file>
+    <file>img/message.png</file>
+    <file>img/warning.png</file>
+    <file>img/error.png</file>
+    <file>img/bug.png</file>
+    <file>img/refresh.png</file>
+  </qresource>
+  <qresource prefix="general">
+    <file>img/lafayette.png</file>
+  </qresource>
+</RCC>

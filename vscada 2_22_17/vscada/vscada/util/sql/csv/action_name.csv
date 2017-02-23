@@ -1,0 +1,4 @@
+action_name_id,action_name,param1_name,param2_name,param3_name
+0,'default','default_int','default_int','default_str'
+1,'warn_msg','level','default_int','default_str'
+2,'set_sensor','sensor_id','sensor_value','default_str'
