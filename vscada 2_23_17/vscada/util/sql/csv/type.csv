@@ -1,0 +1,5 @@
+type_id,io,name
+0,'input','analog_input'
+1,'output','analog_output'
+2,'input','digital_input'
+3,'output','digital_output'
