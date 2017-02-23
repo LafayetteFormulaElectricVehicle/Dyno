@@ -1,0 +1,9 @@
+[Unit]
+After=default.target
+
+[Service]
+ExecStart=/usr/bin/python /home/vscada/python/logger.py
+WorkingDirectory=/home/vscada/python
+
+[Install]
+WantedBy=default.target
