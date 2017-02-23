@@ -1,0 +1,4 @@
+sequence_number,sensor_id,direction,value_await,time_await,action_id,description
+1,31,'output',1,1,0,'close GLV relay'
+2,31,'input',1,5,2,'check GLV relay'
+3,25,'input',0,5,2,'check motor not spinning'
